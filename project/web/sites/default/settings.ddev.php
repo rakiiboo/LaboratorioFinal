@@ -28,7 +28,7 @@ $databases['default']['default'] = array(
   'prefix' => "",
 );
 
-$settings['hash_salt'] = 'QflphybTJrQfVtTzUpiYQxkKFHIvAxBJyReZbMtzIzIVZCTZZoxTimgOILHSKEpT';
+$settings['hash_salt'] = 'XLoQChDFsrMHhNIRmTAJPwhUVFDUgYsagseSXccCzNojtPUAMMaxrtnptClTWxUA';
 
 // This will prevent Drupal from setting read-only permissions on sites/default.
 $settings['skip_permissions_hardening'] = TRUE;
@@ -43,7 +43,7 @@ $settings['class_loader_auto_detect'] = FALSE;
 
 // Set $settings['config_sync_directory'] if not set in settings.php.
 if (empty($settings['config_sync_directory'])) {
-  $settings['config_sync_directory'] = 'sites/default/files/sync';
+  $settings['config_sync_directory'] = '../config/sync';
 }
 
 // Override drupal/symfony_mailer default config to use Mailhog
