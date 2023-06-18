@@ -1,0 +1,25 @@
+uuid: c37909c9-4517-44c6-a783-cfd1bfebb3a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - lab3
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: lab3_site_branding
+theme: lab3
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,8 +1,0 @@
-uuid: 0cd6c29d-9f12-4391-a3e0-0ccccaeef684
-langcode: en
-status: true
-dependencies: {  }
-name: 'Diciplinas académicas'
-vid: diciplinas_academicas
-description: 'Áreas de conocimiento que se estudian en la educación superior.'
-weight: 0

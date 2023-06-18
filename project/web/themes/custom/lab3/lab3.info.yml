@@ -1,0 +1,22 @@
+name: lab3
+type: theme
+'base theme': olivero
+starterkit: true
+version: VERSION
+libraries:
+  - lab3/base
+  - lab3/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - lab3/user
+  core/drupal.dropbutton:
+    - lab3/dropbutton
+  core/drupal.dialog:
+    - lab3/dialog
+  file/drupal.file:
+    - lab3/file
+  core/drupal.progress:
+    - lab3/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.7'

@@ -1,0 +1,23 @@
+uuid: 1bbda64b-2124-4cc2-b26c-7942ce241492
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - lab3
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: lab3_search_form_narrow
+theme: lab3
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
