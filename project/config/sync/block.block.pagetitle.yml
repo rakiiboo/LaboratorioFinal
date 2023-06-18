@@ -1,15 +1,13 @@
-uuid: 8bb6b218-2f22-469a-af56-4442e9fbdb1c
+uuid: e02fba12-3792-4df2-92df-b14a910da594
 langcode: en
 status: true
 dependencies:
   theme:
     - lab3
-_core:
-  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
-id: lab3_page_title
+id: pagetitle
 theme: lab3
-region: content_above
-weight: -7
+region: content
+weight: 0
 provider: null
 plugin: page_title_block
 settings:
