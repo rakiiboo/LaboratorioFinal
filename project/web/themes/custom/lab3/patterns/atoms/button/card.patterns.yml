@@ -1,12 +1,12 @@
-button:
-  label: "Button"
-  description: "Button component"
+card:
+  label: "Card"
+  description: "Card component"
   fields:
     title:
       type: string
       label: Title
       description: Text to be placed on title.
-      preview: "Tite of the pattern"
+      preview: "Sabias que..."
     paragraph:
       type: string
       label: Paragraph
@@ -26,7 +26,7 @@ button:
       type: string
       label: Button color
       description: Card background color
-      preview: "#154d61"
+      preview: "#008080"
   libraries:
     - button:
         css:
