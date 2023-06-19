@@ -1,0 +1,19 @@
+uuid: e659ca4c-58ad-4062-a258-fc6505c17e9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_to_cta
+    - paragraphs.paragraphs_type.title_text_cta
+id: paragraph.title_text_cta.field_text_to_cta
+field_name: field_text_to_cta
+entity_type: paragraph
+bundle: title_text_cta
+label: 'Text to CTA'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

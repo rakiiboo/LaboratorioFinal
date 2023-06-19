@@ -1,20 +1,34 @@
 button:
-  label: 'Button'
-  description: 'Button component'
+  label: "Button"
+  description: "Button component"
   fields:
+    title:
+      type: string
+      label: Title
+      description: Text to be placed on title.
+      preview: "Tite of the pattern"
+    paragraph:
+      type: string
+      label: Paragraph
+      description: Text to be placed on paragraph of the body.
+      preview: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."
     text:
       type: string
       label: Button text
       description: Text to be placed on the button.
-      preview: 'Read More'
+      preview: "Cómo actuaizar mis datos"
     url:
       type: url
       label: URL
       description: URL that user will be redirected to.
       preview: https://www.google.com
+    color:
+      type: string
+      label: Button color
+      description: Card background color
+      preview: "#154d61"
   libraries:
-    -
-      button:
+    - button:
         css:
           component:
             css/styles.css: {}
