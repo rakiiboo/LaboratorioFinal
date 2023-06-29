@@ -7,6 +7,7 @@ libraries:
   - lab3/base
   - lab3/messages
   - core/normalize
+  - lab3/font-awesome
 libraries-extend:
   user/drupal.user:
     - lab3/user

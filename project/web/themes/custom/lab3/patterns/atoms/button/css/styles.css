@@ -1,0 +1,31 @@
+.btn{
+    background-color: #008081;
+    padding: 1em 2em;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #008081;
+    border: 1px #008081 solid;
+}
+
+.btn--link{
+    background-color: transparent;
+    color: gray;
+}
+
+.btn--link:hover{
+    color: gray;
+    border: none;
+    text-decoration: underline;
+}
+
+.btn--link i{
+    margin-left: 5px;
+    color: #008081;
+}

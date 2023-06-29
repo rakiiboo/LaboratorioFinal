@@ -1,1 +1,10 @@
-<a href="#" class="btn">Sabias que...</a>
+<a href="{{ url }}" class="btn btn--{{ variant }}">
+    {{ text }}
+
+    {% if variant == 'link' %}
+
+        <i class="fa-solid fa-arrow-right"></i> 
+        
+    {% endif %}
+    
+</a>
