@@ -1,25 +1,25 @@
-uuid: 229a269a-18d0-482f-a186-edc1d730a397
+uuid: ff779b64-e1db-4ad2-a810-44d1e3e9d6d9
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_button_style
-field_name: field_button_style
+id: paragraph.field_color_cta
+field_name: field_color_cta
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
       value: default
-      label: 'Default button with green background'
+      label: 'Default display (Transparent)'
     -
-      value: link
-      label: 'Button with arrow icon'
+      value: orange
+      label: 'Orange background'
     -
-      value: outlined
-      label: 'Outlined Button'
+      value: blue
+      label: 'Blue Background'
   allowed_values_function: ''
 module: options
 locked: false

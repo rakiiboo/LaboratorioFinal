@@ -1,0 +1,8 @@
+@media (min-width: 767px){
+    .two-column{
+        display: flex;
+    }
+    .two-column .column{
+        width: 50%;
+    }
+}

@@ -1,0 +1,43 @@
+uuid: 7c36c2cb-8e30-447f-a481-46c279ebe2cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_right_content
+    - paragraphs.paragraphs_type.layout_2_columns
+    - paragraphs.paragraphs_type.title_text_cta_
+  module:
+    - entity_reference_revisions
+id: paragraph.layout_2_columns.field_right_content
+field_name: field_right_content
+entity_type: paragraph
+bundle: layout_2_columns
+label: 'Right content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      title_text_cta_: title_text_cta_
+    negate: 0
+    target_bundles_drag_drop:
+      cta:
+        weight: 6
+        enabled: false
+      layout_2_columns:
+        weight: 7
+        enabled: false
+      title_text_cta:
+        weight: 8
+        enabled: false
+      title_text_cta_:
+        weight: 9
+        enabled: true
+      two_colums_content:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,32 @@
+title_text_cta:
+  label: 'Title, text, CTA'
+  description: 'Component with title, text and CTA'
+  variants:
+    default:
+      label: Default - Transparent 
+    orange:
+      label: Orange BackGround
+    blue:
+      label: Blue BackGround
+  fields:
+    title: 
+      type: string
+      label: Title 
+      description: Title of the card
+      preview: 'Preguntas frecuentes'
+    text: 
+      type: string
+      label: Text
+      description: Text of the card
+      preview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla, felis eu mollis luctus, mauris augue tempor dui, ut facilisis lacus sapien eget nisi. Sed fermentum velit augue, ac ornare lacus venenatis quis. Duis eget orci sit amet velit accumsan aliquet. Aenean at purus commodo, tempus lorem et, feugiat ligula.'
+    cta: 
+      type: mixed
+      label: CTA
+      description: Call to Action
+      preview: <a href="#" class="btn btn--outlined">Click Here</a>
+  libraries:
+    -
+      button:
+        css:
+          component:
+            css/styles.css: {}

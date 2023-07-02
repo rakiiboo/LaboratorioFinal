@@ -1,0 +1,40 @@
+uuid: 5b766dc1-2174-4f7a-8be0-b8620c5154c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta
+    - paragraphs.paragraphs_type.cta
+    - paragraphs.paragraphs_type.title_text_cta_
+  module:
+    - entity_reference_revisions
+id: paragraph.title_text_cta_.field_cta
+field_name: field_cta
+entity_type: paragraph
+bundle: title_text_cta_
+label: CTA
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cta: cta
+    negate: 0
+    target_bundles_drag_drop:
+      cta:
+        weight: 5
+        enabled: true
+      title_text_cta:
+        weight: 6
+        enabled: false
+      title_text_cta_:
+        weight: 7
+        enabled: false
+      two_colums_content:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions
