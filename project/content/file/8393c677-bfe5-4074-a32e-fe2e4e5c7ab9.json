@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/sites\/default\/files\/2023-07\/gallery_activity-photos-219c226b-6eaf-4cc0-937f-f9f8fb2214ed.jpg"
+        },
+        "type": {
+            "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8393c677-bfe5-4074-a32e-fe2e4e5c7ab9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad5a4a59-46c5-42d9-acc1-6820fdcf21e2"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "gallery_activity-photos-219c226b-6eaf-4cc0-937f-f9f8fb2214ed.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-07\/gallery_activity-photos-219c226b-6eaf-4cc0-937f-f9f8fb2214ed.jpg",
+            "url": "\/sites\/default\/files\/2023-07\/gallery_activity-photos-219c226b-6eaf-4cc0-937f-f9f8fb2214ed.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 159843
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-05T04:08:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-05T04:08:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+uuid: a747b6e3-8eae-40a8-9bec-42030d68403d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen_del_post
+    - media.type.imagen_del_post
+    - node.type.post
+id: node.post.field_imagen_del_post
+field_name: field_imagen_del_post
+entity_type: node
+bundle: post
+label: 'Imagen del post'
+description: 'Elija una imagen para el post.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      imagen_del_post: imagen_del_post
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

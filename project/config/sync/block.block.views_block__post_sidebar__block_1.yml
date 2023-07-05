@@ -1,0 +1,32 @@
+uuid: 60288d48-8d85-4a91-b283-f331a7a6e699
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.post_sidebar_
+  module:
+    - node
+    - views
+  theme:
+    - lab3
+id: views_block__post_sidebar__block_1
+theme: lab3
+region: sidebar
+weight: -8
+provider: null
+plugin: 'views_block:post_sidebar_-block_1'
+settings:
+  id: 'views_block:post_sidebar_-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      post: post

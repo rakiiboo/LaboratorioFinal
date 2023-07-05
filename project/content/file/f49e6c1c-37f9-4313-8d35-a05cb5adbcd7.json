@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/sites\/default\/files\/oembed_thumbnails\/2023-07\/D1jLiqZjSZFPcq7UtMx2FuZCdjub4DXKlY99lSz9lSA.jpg"
+        },
+        "type": {
+            "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f49e6c1c-37f9-4313-8d35-a05cb5adbcd7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad5a4a59-46c5-42d9-acc1-6820fdcf21e2"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "D1jLiqZjSZFPcq7UtMx2FuZCdjub4DXKlY99lSz9lSA.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/2023-07\/D1jLiqZjSZFPcq7UtMx2FuZCdjub4DXKlY99lSz9lSA.jpg",
+            "url": "\/sites\/default\/files\/oembed_thumbnails\/2023-07\/D1jLiqZjSZFPcq7UtMx2FuZCdjub4DXKlY99lSz9lSA.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 28664
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-05T04:54:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-05T04:54:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

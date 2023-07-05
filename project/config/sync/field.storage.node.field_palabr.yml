@@ -1,0 +1,20 @@
+uuid: 565449a5-f34f-437c-a5b0-da89b26c76c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_palabr
+field_name: field_palabr
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

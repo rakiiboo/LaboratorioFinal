@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/sites\/default\/files\/2023-07\/maxresdefault.jpg"
+        },
+        "type": {
+            "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "dd33d61a-8c95-4078-a45b-395d8d0c284b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-nnaith-proyectofinaldru-whjof661pp9.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad5a4a59-46c5-42d9-acc1-6820fdcf21e2"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "maxresdefault.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-07\/maxresdefault.jpg",
+            "url": "\/sites\/default\/files\/2023-07\/maxresdefault.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 234405
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-07-05T04:13:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-07-05T04:13:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -5,9 +5,9 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: 'public://Logo_0.png'
+  path: 'public://logzo_0.png'
 favicon:
   use_default: 1
 mobile_menu_all_widths: 0
 site_branding_bg_color: default
-base_primary_color: '#3d3d3d'
+base_primary_color: '#008080'

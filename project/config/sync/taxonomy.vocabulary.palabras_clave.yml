@@ -1,0 +1,8 @@
+uuid: 8768ec1e-de3a-4cd3-b2f8-87366c8add35
+langcode: en
+status: true
+dependencies: {  }
+name: 'Palabras clave'
+vid: palabras_clave
+description: ''
+weight: 0

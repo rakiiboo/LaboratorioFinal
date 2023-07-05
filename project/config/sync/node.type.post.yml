@@ -1,0 +1,18 @@
+uuid: ea812bba-435a-4d30-a1b2-0701b0cb63c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Post
+type: post
+description: 'Crear una publicación nueva.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

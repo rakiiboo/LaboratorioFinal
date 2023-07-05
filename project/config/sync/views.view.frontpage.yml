@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: 6eeliKIydPjqyv5V__QqTfahvJMWkHjOVUUuUIdB1ik
 id: frontpage
-label: Frontpage
+label: Homepage
 module: node
 description: 'All content promoted to the front page.'
 tag: default
@@ -30,7 +30,7 @@ display:
         type: full
         options:
           offset: 0
-          items_per_page: 10
+          items_per_page: 6
           total_pages: 0
           id: 0
           tags:

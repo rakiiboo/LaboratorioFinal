@@ -1,0 +1,14 @@
+uuid: 444c54ec-d3a9-4e1e-b7d1-46254919eade
+langcode: en
+status: true
+dependencies: {  }
+id: imagen_del_post
+label: 'Imagen del post'
+description: 'Para subir una foto o imagen en el post'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

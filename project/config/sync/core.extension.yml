@@ -15,8 +15,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
-  devel: 0
-  devel_generate: 0
+  default_content_deploy: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
@@ -24,12 +23,15 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
   layout_builder: 0
   layout_discovery: 0
   link: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -40,6 +42,7 @@ module:
   path_alias: 0
   responsive_image: 0
   search: 0
+  serialization: 0
   shortcut: 0
   statistics: 0
   system: 0

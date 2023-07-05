@@ -1,0 +1,29 @@
+uuid: 10e32ddd-618d-4dfc-8a6d-20628b96f56b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_palabr
+    - node.type.post
+    - taxonomy.vocabulary.palabras_clave
+id: node.post.field_palabr
+field_name: field_palabr
+entity_type: node
+bundle: post
+label: 'Palabras clave'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      palabras_clave: palabras_clave
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
